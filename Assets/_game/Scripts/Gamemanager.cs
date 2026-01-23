@@ -96,9 +96,12 @@ public class Gamemanager : MonoBehaviour
     /// <returns>Formatted act name</returns>
     private string GetActName(StoryAct actToName)
     {
+        // Switch expression: maps each StoryAct enum value to a display string
+        // The => operator means "maps to" or "returns" - it connects each pattern (left side) with its result (right side)
+        // Example: when actToName is StoryAct.Departure, this returns "Act 1: Departure"
         return actToName switch
         {
-            // this is a shortcut approach for switch case expressions
+
             StoryAct.Start => "Start state",
             StoryAct.Departure => "Act 1: Departure",
             StoryAct.Initiation => "Act 2: Initiation",
