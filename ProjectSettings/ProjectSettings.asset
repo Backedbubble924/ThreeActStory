@@ -745,7 +745,7 @@ PlayerSettings:
     PS5: RealtimeCSG;RealtimeCSG_1;RealtimeCSG_1_6;RealtimeCSG_1_6_01
     QNX: RealtimeCSG;RealtimeCSG_1;RealtimeCSG_1_6;RealtimeCSG_1_6_01
     ReservedCFE: RealtimeCSG;RealtimeCSG_1;RealtimeCSG_1_6;RealtimeCSG_1_6_01
-    Standalone: CROSS_PLATFORM_INPUT;WEATHER_MAKER_PRESENT;RealtimeCSG;RealtimeCSG_1;RealtimeCSG_1_6;RealtimeCSG_1_6_01
+    Standalone: CROSS_PLATFORM_INPUT;WEATHER_MAKER_PRESENT;RealtimeCSG;RealtimeCSG_1;RealtimeCSG_1_6;RealtimeCSG_1_6_01;UNITY_URP
     VisionOS: RealtimeCSG;RealtimeCSG_1;RealtimeCSG_1_6;RealtimeCSG_1_6_01
     WebGL: UNITY_POST_PROCESSING_STACK_V2;RealtimeCSG;RealtimeCSG_1;RealtimeCSG_1_6;RealtimeCSG_1_6_01
     XboxOne: UNITY_POST_PROCESSING_STACK_V2;RealtimeCSG;RealtimeCSG_1;RealtimeCSG_1_6;RealtimeCSG_1_6_01
