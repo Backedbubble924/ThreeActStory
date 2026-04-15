@@ -1186,6 +1186,11 @@ PrefabInstance:
       propertyPath: playerInputHandler
       value: 
       objectReference: {fileID: 1055558497}
+    - target: {fileID: 5123630462842854723, guid: bbc8051ca88ecbd4298d1ef3b23ed7b8,
+        type: 3}
+      propertyPath: Scene
+      value: island 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8407569088234798661, guid: bbc8051ca88ecbd4298d1ef3b23ed7b8,
         type: 3}
       propertyPath: m_LocalPosition.x

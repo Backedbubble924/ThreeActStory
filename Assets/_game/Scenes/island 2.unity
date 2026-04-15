@@ -137,6 +137,11 @@ PrefabInstance:
       propertyPath: playerInputHandler
       value: 
       objectReference: {fileID: 1942781190}
+    - target: {fileID: 5123630462842854723, guid: bbc8051ca88ecbd4298d1ef3b23ed7b8,
+        type: 3}
+      propertyPath: Scene
+      value: island 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8407569088234798661, guid: bbc8051ca88ecbd4298d1ef3b23ed7b8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -736,9 +741,34 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1418475435402579387, guid: bd480dbfc66e0e54fa15c706687b89ab,
         type: 3}
+      propertyPath: visionRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1418475435402579387, guid: bd480dbfc66e0e54fa15c706687b89ab,
+        type: 3}
+      propertyPath: attackCooldown
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1418475435402579387, guid: bd480dbfc66e0e54fa15c706687b89ab,
+        type: 3}
+      propertyPath: engagementRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1418475435402579387, guid: bd480dbfc66e0e54fa15c706687b89ab,
+        type: 3}
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 606263104}
+    - target: {fileID: 1418475435402579387, guid: bd480dbfc66e0e54fa15c706687b89ab,
+        type: 3}
+      propertyPath: forwardShotForce
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1418475435402579387, guid: bd480dbfc66e0e54fa15c706687b89ab,
+        type: 3}
+      propertyPath: verticalShotForce
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1418475435402579387, guid: bd480dbfc66e0e54fa15c706687b89ab,
         type: 3}
       propertyPath: terrainLayer.m_Bits
@@ -798,6 +828,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1892886243477812742, guid: bd480dbfc66e0e54fa15c706687b89ab,
+        type: 3}
+      propertyPath: m_Speed
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

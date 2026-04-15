@@ -168,11 +168,11 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   patrolRadius: 10
-  attackCooldown: 0.7
-  forwardShotForce: 10
-  verticalShotForce: 10
-  visionRange: 25
-  engagementRange: 15
+  attackCooldown: 2
+  forwardShotForce: 15
+  verticalShotForce: 5
+  visionRange: 20
+  engagementRange: 10
 --- !u!195 &1892886243477812742
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -183,7 +183,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 1
-  m_Speed: 3.5
+  m_Speed: 3
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
