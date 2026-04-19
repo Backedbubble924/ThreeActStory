@@ -1,0 +1,58 @@
+title: Deckhand
+---
+Deckhand: Hello there... pyrate.
+Deckhand: Why are you here?
+
+
+-> To find something lost.
+  Deckhand: I do hope it's not here with us...
+      -> it is.
+        Deckhand: Oh please don't kill us all!
+        <<jump Frightened>> 
+       
+      -> it is not.
+        Deckhand: Oh thank the Lord, I was nearly scared there!
+        <<jump Questions>> 
+
+===
+
+title: Frightened
+---
+Deckhand: Help!!
+Wait I was joking!
+Deckhand: It definitely didn't seem that way to me, with the ship full of other pyrates and your scary disposition.
+Am I really that scary?
+Deckhand: Yes! Look at you with the sword... rusty though it may be, and the pistol... with no hammer... your not a very good pyrate are you?
+I am! Myself and my crew are just a little light in the pocket if you catch my meaning. Which is why we are here.
+Deckhand: What, to rob us with that gear, you would be better off uses buckets of water from the ocean.
+...I was lying ok. What we are after is not here.
+Deckhand: So why lie
+Thought it was funny with the whole pyrate thing, ya know.
+Deckhand: It wasn't 
+Well I'm 100% lab made pyrate, FUCK YOU.
+Deckhand: Buy me dinner first.
+.....
+Deckhand: .....
+Anyway I have some questions that you should be able to answer.
+Deckhand: Don't be so sure, I don't know how to read.
+<<jump Questions>>
+===
+
+title: Questions
+---
+->So about what I need.
+  Deckhand: Ya what about it?
+    -> What do you know about lost treasure
+    Deckhand: Wouldn't be my business sir.
+    -> What secrets do you know aroud these islands?
+    Deckhand: Only what the travellers and merchants are willing to tell.
+  
+Deckhand: I hear that the Lush island used to be horde for pyrates a few years back, they stashed the last of their wealth there before they were blown apart by an armada, now its all owned by turtles and fish.
+Not a bad place to go looking then.
+Deckhand: you would think, but recently an ex captain of the british fleet found the keys for the chests there, right before they tore his sleaves and left him stranded with no way to claim the treasure, everyone who goes near the Sandy Island comes back with holes in their body, or they don't come back at all. 
+So what your saying....
+Deckhand: With your equipment, you'll have to get around him and get off that island before he finds ya...
+Great just another adventure on the seas to tell on Tortuga some day.
+I'll be off then
+Deckhand: Kindly, I hope I don't see ya again.
+===
